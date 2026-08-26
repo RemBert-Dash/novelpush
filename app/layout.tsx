@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: { default: "NovelPush — Your story, everywhere.", template: "%s | NovelPush" },
   description: "Book-first campaign workspace for self-published Amazon authors.",
   metadataBase: new URL("https://novelpush.com"),
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "NovelPush — Your story, everywhere.",
     description: "Book launch and backlist revival campaigns, thoughtfully organized.",
