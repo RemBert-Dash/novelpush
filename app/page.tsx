@@ -110,7 +110,7 @@ export default function HomePage() {
                   <span>Notes</span>
                 </div>
                 <div className="workspace-content">
-                  <p>This week's focus</p>
+                  <p>This week&apos;s focus</p>
                   <h3>
                     Let old readers meet
                     <br />
@@ -186,7 +186,7 @@ export default function HomePage() {
               <div>
                 <p className="plan">Starter</p>
                 <p className="price">$19</p>
-                <p>Everything you need to make one book's next chapter count.</p>
+                <p>Everything you need to make one book&apos;s next chapter count.</p>
               </div>
 
               <ul>
@@ -239,7 +239,7 @@ export default function HomePage() {
                 <summary>
                   When can I start?<span>+</span>
                 </summary>
-                <p>We're preparing the first release now. Join the list and we'll let you know when Starter opens.</p>
+                <p>We&apos;re preparing the first release now. Join the list and we&apos;ll let you know when Starter opens.</p>
               </details>
             </div>
           </div>
