@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { NotifyForm } from "@/components/NotifyForm";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+
+const checkoutUrl =
+  "https://madethis.com/checkout/onboarding-n977r9dw-1787535912817/md7c2qp682yf8fr8yv03d7bpw18d43m3";
 
 const campaignSteps = [
   ["01", "Set the book", "Give your campaign a title, Amazon link, and a clear reader promise."],
@@ -21,8 +23,14 @@ export default function HomePage() {
               <h1>
                 From your book
                 <br />
-                to <em>every</em>
+                to its next <em>reader.</em>
               </h1>
+              <p>
+                NovelPush turns a launch or backlist revival into a clear weekly campaign—without losing the voice that made the book yours.
+              </p>
+              <a className="button button-gold" href={checkoutUrl}>
+                Join the Founding Pilot <span>→</span>
+              </a>
             </div>
           </div>
         </section>
@@ -45,9 +53,7 @@ export default function HomePage() {
                 <br />
                 <em>More momentum.</em>
               </h2>
-              <p>
-                Build a simple, repeatable rhythm around the book—not the algorithm of the day.
-              </p>
+              <p>Build a simple, repeatable rhythm around the book—not the algorithm of the day.</p>
             </div>
 
             <div className="steps">
@@ -73,19 +79,12 @@ export default function HomePage() {
                 at the <em>center.</em>
               </h2>
               <p>
-                Bring together the details that make a campaign feel intentional: your book, its message, the
-                channels that matter, and the next small action.
+                Bring together the details that make a campaign feel intentional: your book, its message, the channels that matter, and the next small action.
               </p>
               <ul>
-                <li>
-                  <span>✦</span> Launch campaigns with a 30-day runway
-                </li>
-                <li>
-                  <span>✦</span> Backlist revivals that honour the original work
-                </li>
-                <li>
-                  <span>✦</span> Platform-ready prompts that still sound like you
-                </li>
+                <li><span>✦</span> Launch campaigns with a 30-day runway</li>
+                <li><span>✦</span> Backlist revivals that honour the original work</li>
+                <li><span>✦</span> Platform-ready prompts that still sound like you</li>
               </ul>
               <Link href="/demo" className="text-link">
                 Open a sample campaign <span>→</span>
@@ -116,9 +115,7 @@ export default function HomePage() {
                     <br />
                     the story again.
                   </h3>
-                  <div className="progress">
-                    <span style={{ width: "68%" }} />
-                  </div>
+                  <div className="progress"><span style={{ width: "68%" }} /></div>
                   <small>7 of 10 weekly actions complete</small>
 
                   <div className="task">
@@ -157,10 +154,9 @@ export default function HomePage() {
               <article>
                 <span>01</span>
                 <h3>Book Launch</h3>
-                <p>Set a call, confident plan for the first 30 days—before the release-day rush arrives.</p>
+                <p>Set a calm, confident plan for the first 30 days—before the release-day rush arrives.</p>
                 <a href="#pricing">Start a campaign →</a>
               </article>
-
               <article>
                 <span>02</span>
                 <h3>Backlist Revival</h3>
@@ -174,17 +170,18 @@ export default function HomePage() {
         <section id="pricing" className="section section-ivory">
           <div className="container pricing-wrap">
             <div className="section-heading">
-              <p className="eyebrow gold">Simple by design</p>
+              <p className="eyebrow gold">Founding Pilot</p>
               <h2>
-                A considered tool
+                A considered campaign
                 <br />
-                for independent authors.
+                for your next <em>chapter.</em>
               </h2>
+              <p>One focused workspace for authors ready to give a new release—or a trusted backlist title—real momentum.</p>
             </div>
 
             <div className="pricing-card">
               <div>
-                <p className="plan">Starter</p>
+                <p className="plan">Founding Pilot</p>
                 <p className="price">$19</p>
                 <p>Everything you need to make one book&apos;s next chapter count.</p>
               </div>
@@ -196,10 +193,7 @@ export default function HomePage() {
                 <li>Platform-ready post prompts</li>
               </ul>
 
-              <a
-                className="button button-gold"
-                href="https://madethis.com/checkout/onboarding-n977r9dw-1787535912817/md7c2qp682yf8fr8yv03d7bpw18d43m3"
-              >
+              <a className="button button-gold" href={checkoutUrl}>
                 Start your campaign <span>→</span>
               </a>
             </div>
@@ -219,33 +213,22 @@ export default function HomePage() {
 
             <div className="faq-list">
               <details open>
-                <summary>
-                  Who is NovelPush for?<span>+</span>
-                </summary>
-                <p>
-                  NovelPush is for self-published Amazon authors who want a focused, professional way to launch a new
-                  book or bring a backlist title back into view.
-                </p>
+                <summary>Who is NovelPush for?<span>+</span></summary>
+                <p>NovelPush is for self-published Amazon authors who want a focused, professional way to launch a new book or bring a backlist title back into view.</p>
               </details>
-
               <details>
-                <summary>
-                  Do I need a big audience first?<span>+</span>
-                </summary>
+                <summary>Do I need a big audience first?<span>+</span></summary>
                 <p>No. The workspace is built around clear, repeatable actions that meet readers where they are—one good touchpoint at a time.</p>
               </details>
-
               <details>
-                <summary>
-                  When can I start?<span>+</span>
-                </summary>
-                <p>We&apos;re preparing the first release now. Join the list and we&apos;ll let you know when Starter opens.</p>
+                <summary>When can I start?<span>+</span></summary>
+                <p>You can start now. Join the Founding Pilot for $19 and begin shaping your next book campaign today.</p>
               </details>
             </div>
           </div>
         </section>
 
-        <section id="notify" className="cta">
+        <section className="cta">
           <div className="container">
             <p className="eyebrow gold">A better next chapter starts here</p>
             <h2>
@@ -253,9 +236,11 @@ export default function HomePage() {
               <br />
               to travel <em>further.</em>
             </h2>
-            <p>Get launch notes and early access to NovelPush.</p>
-            <NotifyForm />
-            <small>Thoughtful updates for working authors. No noise.</small>
+            <p>Start with a focused campaign built around the book—not the noise around it.</p>
+            <a className="button button-gold" href={checkoutUrl}>
+              Join the Founding Pilot for $19 <span>→</span>
+            </a>
+            <small>Clear next steps for working authors.</small>
           </div>
         </section>
       </main>
