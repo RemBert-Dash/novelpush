@@ -174,7 +174,7 @@ export default function HomePage() {
             <div className="pricing-card">
               <div>
                 <p className="plan">Starter</p>
-                <p className="price">Coming soon</p>
+                <p className="price">$19</p>
                 <p>Everything you need to make one book's next chapter count.</p>
               </div>
 
