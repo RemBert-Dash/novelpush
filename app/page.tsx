@@ -20,7 +20,8 @@ export default function HomePage() {
               <p className="eyebrow gold">For self-published Amazon authors</p>
               <h1>
                 From your book
-                <br />to <em>every</em>
+                <br />
+                to <em>every</em>
               </h1>
             </div>
           </div>
@@ -68,7 +69,8 @@ export default function HomePage() {
               <p className="eyebrow gold">One workspace, every next step</p>
               <h2>
                 Your book stays
-                <br />at the <em>center.</em>
+                <br />
+                at the <em>center.</em>
               </h2>
               <p>
                 Bring together the details that make a campaign feel intentional: your book, its message, the
@@ -109,7 +111,11 @@ export default function HomePage() {
                 </div>
                 <div className="workspace-content">
                   <p>This week's focus</p>
-                  <h3>Let old readers meet<br />the story again.</h3>
+                  <h3>
+                    Let old readers meet
+                    <br />
+                    the story again.
+                  </h3>
                   <div className="progress">
                     <span style={{ width: "68%" }} />
                   </div>
@@ -142,7 +148,8 @@ export default function HomePage() {
               <p className="eyebrow gold">For every season of your author career</p>
               <h2>
                 Give good books
-                <br />a longer <em>life.</em>
+                <br />
+                a longer <em>life.</em>
               </h2>
             </div>
 
@@ -168,7 +175,11 @@ export default function HomePage() {
           <div className="container pricing-wrap">
             <div className="section-heading">
               <p className="eyebrow gold">Simple by design</p>
-              <h2>A considered tool<br />for independent authors.</h2>
+              <h2>
+                A considered tool
+                <br />
+                for independent authors.
+              </h2>
             </div>
 
             <div className="pricing-card">
@@ -201,7 +212,8 @@ export default function HomePage() {
               <p className="eyebrow gold">Questions, answered</p>
               <h2>
                 Made for the book
-                <br />you already <em>believe in.</em>
+                <br />
+                you already <em>believe in.</em>
               </h2>
             </div>
 
@@ -238,7 +250,8 @@ export default function HomePage() {
             <p className="eyebrow gold">A better next chapter starts here</p>
             <h2>
               When your book is ready
-              <br />to travel <em>further.</em>
+              <br />
+              to travel <em>further.</em>
             </h2>
             <p>Get launch notes and early access to NovelPush.</p>
             <NotifyForm />
